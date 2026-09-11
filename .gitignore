@@ -1,0 +1,22 @@
+# segredos: NUNCA versionar
+.env
+.env.*
+*.env
+!.env.example
+
+# ambientes e dependências
+.venv/
+venv/
+node_modules/
+__pycache__/
+dist/
+build/
+.next/
+
+# arquivos compactados e temporários
+*.zip
+*.tar.gz
+
+# sistema
+.DS_Store
+Thumbs.db
